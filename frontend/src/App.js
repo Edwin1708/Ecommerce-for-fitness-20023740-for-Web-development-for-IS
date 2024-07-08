@@ -44,7 +44,7 @@ import Acces from './components/main/subMain/Acces';
 import AboutUs from './components/About/AboutUs';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:4000'
+axios.defaults.baseURL = 'https://ecommerce-for-fitness-20023740-for-web.onrender.com'
 
 // axios.defaults.headers = {
 //   'Authorization': `Bearer ${localStorage.getItem('token')}`
