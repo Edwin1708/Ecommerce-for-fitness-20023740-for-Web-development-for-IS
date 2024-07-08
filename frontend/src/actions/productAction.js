@@ -43,7 +43,7 @@ export const getProduct=(keyword="",currentPage=1, price=[0,60000],category,rati
     } catch (error) {
         dispatch({
             type:ALL_PRODUCT_FAIL,
-            payload:error.response.data.message,
+            payload:error?.response?.data?.message,
         });
         
     }
@@ -70,7 +70,7 @@ export const getAProduct=(keyword="",currentPage=1, price=[0,60000],category,rat
   } catch (error) {
       dispatch({
           type:ALL_PRODUCT_FAIL,
-          payload:error.response.data.message,
+          payload:error?.response?.data?.message,
       });
       
   }
