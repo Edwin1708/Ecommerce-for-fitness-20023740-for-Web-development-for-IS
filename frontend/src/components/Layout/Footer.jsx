@@ -30,10 +30,10 @@ const Footer = () => {
                 <h2 class="mb-6 text-[17px] font-semibold  uppercase text-white">Follow us</h2>
                 <ul class="text-white">
                     <li class="mb-4">
-                        <a href="https://github.com/developer208/Gym_website.git" class="hover:underline ">Github</a>
+                        <a href="Ecommerce-for-fitness-20023740-for-Web-development-for-IS" class="hover:underline ">Github</a>
                     </li>
                     <li>
-                    <Link to= "/about"> <div class="hover:underline">About Us</div></Link>
+                    <Link to= "/"> <div class="hover:underline">About Us</div></Link>
                     </li>
                 </ul>
             </div>
