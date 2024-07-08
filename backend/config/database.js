@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const connectDatabase = () => {
-    mongoose.connect('mongodb://127.0.0.1:27017/gymecomm', {
+    mongoose.connect('mongodb+srv://anujkurmi199:8pnKtuIs5QW80kJO@cluster0.38bwibw.mongodb.net/Ecommerce', {
          useNewUrlParser: true, 
          useUnifiedTopology: true })
          .then((data) => {
